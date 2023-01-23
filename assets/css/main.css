@@ -312,6 +312,7 @@ img {
 }
 .delay-4 {
   animation-delay: 5s;
+  font-size: 75%;
 }
 .delay-5 {
   animation-delay: 6s;
