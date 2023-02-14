@@ -98,6 +98,9 @@ video {
 p.italic {
   font-style: italic;
 }
+div.row {
+  margin-bottom: 0;
+}
 
 article,
 aside,
@@ -119,6 +122,7 @@ body {
 ol,
 ul {
   list-style: none;
+  align-content: center;
 }
 
 blockquote,
@@ -2196,8 +2200,11 @@ ul li {
 
 ul.icons {
   list-style: none;
-  padding-left: 0;
+  padding-left: 10px;
   cursor: default;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul.icons li {
